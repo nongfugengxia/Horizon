@@ -1,0 +1,41 @@
+
+#------------------------
+#  model_type: define the run model of this conf
+#  
+#
+#
+#
+#
+[main]
+user=test_upload
+password=horizon-test
+model_type=facerec_train
+
+#------------------------
+#	switch path_type:
+#		case local: data_path, relative path 
+#		case db: data_id is datasystem`s data_id. 
+#			if train_data`s data_id == test_data`s data_id then split_pro is the split probability 
+#
+#	data_type = [ all, person,vehicle]
+#
+#
+
+[test_data]
+path_type=db
+data_path=/home/ubuntu/Install/eclipse/workspace/Horizontal/data_train/data/1024/datasystem_output_2016-11-05-15-53-10_416209
+data_id = 206|11
+split_pro = 0.1 
+data_type = person 
+use_ignore = 1
+
+[train_data]
+path_type=db
+data_path=/home/ubuntu/Install/eclipse/workspace/Horizontal/data_train/data/1024/datasystem_output_2016-11-05-15-53-10_416209
+data_id = 206|11
+split_pro = 0.9
+data_type = person 
+use_ignore = 1
+
+[facerec_trai]
+

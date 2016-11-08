@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//data_train/bin/data.py=utf8
+encoding//data_train/bin/test.py=gbk
+encoding//data_train/tools/HDS_TOOLS/bin/run.py=utf8
+encoding//demo/transfer_point_comFormat.py=utf-8
