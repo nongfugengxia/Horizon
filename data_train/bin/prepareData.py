@@ -325,6 +325,7 @@ class Data:
         self.__copyData(process_id)
 
 
+
 configPath = '../conf/datasystem.conf'
 data = Data(configPath);
 data.prepareData(1024)  # process_id
