@@ -248,8 +248,7 @@ class Data:
         
         # python bin/run.py -p horizon-test -d -i 206 -v 11
         # [Download]  output id is [60043],  message: 20, 206, 11,False
-        checkDownloadFinishedCount = 0;
-        
+        checkDownloadFinishedCount = 0;      
         op = run.hds_tools()
         argList = ['','-p', 'horizon-test', '-d', '-i', id, '-v', version]
         op.confParser( argList)
