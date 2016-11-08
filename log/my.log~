@@ -1,0 +1,19 @@
+11-07 17:11 root         INFO     info information
+11-07 17:11 root         DEBUG    debug information
+11-07 17:11 root         WARNING  warning information
+11-07 17:11 root         ERROR    error information
+11-07 17:11 root         INFO     [Download]  output id is [60457],  message: 20, 206, 11,False
+11-07 17:11 root         INFO     Download id: 60457
+11-07 17:11 root         INFO     [Status] 60457 `s status is 下载数据完成.{"code":0,"URL":"http:\/\/10.19.19.21\/output_dir\/60457\/datasystem_output_2016-11-07-17-11-38_953505.tar"}
+11-07 17:11 root         INFO     Download URL: http://10.19.19.21/output_dir/60457/datasystem_output_2016-11-07-17-11-38_953505.tar
+11-07 17:11 root         INFO     Download file name: datasystem_output_2016-11-07-17-11-38_953505.tar
+11-07 17:11 root         INFO     Download file id = 206, version = 11
+11-07 17:11 root         INFO     Downloading 0.00%
+11-07 17:11 root         INFO     Downloading 80.00%
+11-07 17:11 root         INFO     Downloading 100.00%
+11-07 17:11 root         INFO     file download finished
+11-07 17:11 root         INFO     extract finished
+11-07 17:11 root         INFO     We have the model: "facerec_train"
+11-07 17:11 root         WARNING  Directory "../train_env/facerec_train" is existed, and not make directory
+11-07 17:11 root         INFO     The test_data and train_data has same data id and version
+11-07 17:11 root         INFO     rand: 206|11
